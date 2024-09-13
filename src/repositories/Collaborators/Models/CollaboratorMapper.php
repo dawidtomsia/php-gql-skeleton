@@ -1,8 +1,8 @@
 <?php
 
-namespace Vertuoza\Repositories\Settings\Collaborators\Models;
+namespace Vertuoza\Repositories\Collaborators\Models;
 
-use Vertuoza\Entities\Settings\CollaboratorEntity;
+use Vertuoza\Entities\CollaboratorEntity;
 
 class CollaboratorMapper
 {

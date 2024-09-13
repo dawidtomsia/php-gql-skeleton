@@ -1,6 +1,6 @@
 <?php
 
-namespace Vertuoza\Api\Graphql\Resolvers\Settings\Collaborators;
+namespace Vertuoza\Api\Graphql\Resolvers\Collaborators;
 
 use GraphQL\Type\Definition\ObjectType;
 use Vertuoza\Api\Graphql\Types;

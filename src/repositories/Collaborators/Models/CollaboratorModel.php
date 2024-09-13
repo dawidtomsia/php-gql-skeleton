@@ -1,6 +1,6 @@
 <?php
 
-namespace Vertuoza\Repositories\Settings\Collaborators\Models;
+namespace Vertuoza\Repositories\Collaborators\Models;
 
 use DateTime;
 use stdClass;

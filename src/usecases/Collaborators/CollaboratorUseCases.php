@@ -1,6 +1,6 @@
 <?php
 
-namespace Vertuoza\Usecases\Settings\Collaborators;
+namespace Vertuoza\Usecases\Collaborators;
 
 use Vertuoza\Api\Graphql\Context\UserRequestContext;
 use Vertuoza\Repositories\RepositoriesFactory;

@@ -1,15 +1,14 @@
 <?php
 
-namespace Vertuoza\Repositories\Settings\Collaborators;
+namespace Vertuoza\Repositories\Collaborators;
 
 use Illuminate\Database\Query\Builder;
 use Overblog\DataLoader\DataLoader;
 use Overblog\PromiseAdapter\PromiseAdapterInterface;
 use React\Promise\Promise;
+use Vertuoza\Repositories\Collaborators\Models\CollaboratorMapper;
+use Vertuoza\Repositories\Collaborators\Models\CollaboratorModel;
 use Vertuoza\Repositories\Database\QueryBuilder;
-use Vertuoza\Repositories\Settings\Collaborators\Models\CollaboratorMapper;
-use Vertuoza\Repositories\Settings\Collaborators\Models\CollaboratorModel;
-
 use function React\Async\async;
 
 class CollaboratorRepository

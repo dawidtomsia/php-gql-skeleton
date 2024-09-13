@@ -3,9 +3,9 @@
 namespace Vertuoza\Usecases;
 
 use Vertuoza\Api\Graphql\Context\UserRequestContext;
-use Vertuoza\Usecases\Settings\Collaborators\CollaboratorUseCases;
-use Vertuoza\Usecases\Settings\UnitTypes\UnitTypeUseCases;
 use Vertuoza\Repositories\RepositoriesFactory;
+use Vertuoza\Usecases\Collaborators\CollaboratorUseCases;
+use Vertuoza\Usecases\Settings\UnitTypes\UnitTypeUseCases;
 
 class UseCasesFactory
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Vertuoza\Usecases\Settings\Collaborators;
+namespace Vertuoza\Usecases\Collaborators;
 
 use React\Promise\Promise;
 use Vertuoza\Api\Graphql\Context\UserRequestContext;
-use Vertuoza\Entities\Settings\CollaboratorEntity;
+use Vertuoza\Entities\CollaboratorEntity;
+use Vertuoza\Repositories\Collaborators\CollaboratorRepository;
 use Vertuoza\Repositories\RepositoriesFactory;
-use Vertuoza\Repositories\Settings\Collaborators\CollaboratorRepository;
 
 class CollaboratorByIdUseCase
 {
